@@ -1,9 +1,0 @@
-# Downloads
-*.csv
-
-# Cache
-*.nc
-*.pkl
-
-# Import information
-*.tsv
