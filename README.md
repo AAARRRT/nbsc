@@ -1,11 +1,12 @@
 # nbsc: Python interface to National Bureau of Statistics of China (NBSC) API
 
-### Annual inflation
+## Consumer Price Index (CPI)
+### Annual CPI
 **dbcode="hgnd"**  
 A090201 - Consumer Price Index (1978=100)  
 A090302 - Consumer Price Index (1978=100)  
 
-### Monthly inflation
+### Monthly CPI
 **dbcode="hgyd"**  
 Last Year = 100  
 A01010101 - Consumer Price Index (The same month last year=100) 2016 -  
@@ -17,4 +18,12 @@ A01020201 - Consumer Price Index (The same period last year=100) - 2015
 
 preceding month=100  
 A01030101 - Consumer Price Index (preceding month=100) 2016 -  
-A01030201 - Consumer Price Index (preceding month=100) - 2015  
+A01030201 - Consumer Price Index (preceding month=100) - 2015
+
+## Gross Domestic Product (GDP) - annual data
+A020102 - Gross Domestic Product (GDP)  
+A020106 - Per Capita GDP  
+A020101 - Gross National Income  
+
+
+
