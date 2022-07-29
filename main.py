@@ -1,4 +1,4 @@
-from cn_nbs import load_nbs_web, get_monthly_series
+from cn_nbs import load_nbs_web
 
 """
 
