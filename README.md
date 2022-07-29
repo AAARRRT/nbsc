@@ -1,4 +1,4 @@
-# nbsc: Python interface to National Bureau of Statistics of China (NBCS) API
+# nbsc: Python interface to National Bureau of Statistics of China (NBSC) API
 
 ### Annual inflation
 **dbcode="hgnd"**  
