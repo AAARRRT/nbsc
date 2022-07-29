@@ -34,8 +34,8 @@ def load_nbs_web(series, periods, freq):
     # Example query string (decoded):
     """
     http://data.stats.gov.cn/english/easyquery.htm?m=QueryData
-      &dbcode=hgyd  # reginal: fsnd / national: hgyd (monthly), hgnd (annual)
-      &rowcode=zb  # reginal: reg / national: zb
+      &dbcode=hgyd  # regional: fsnd / national: hgyd (monthly), hgnd (annual)
+      &rowcode=zb  # regional: reg / national: zb
       &colcode=sj
       &wds=[{"wdcode":"zb","valuecode":"A090201"}]
       &dfwds=[{"wdcode":"sj","valuecode":"1995-2014"}]
