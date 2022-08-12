@@ -1,7 +1,7 @@
-from cn_nbs import load_nbs_web
+from nbsc.inflation import s_old
+from nbsc.request_data import load_nbs_web
 
-x = load_nbs_web(series='A0201', periods="LAST5", freq='year')
 
-print(x)
+print(s_old)
 
 

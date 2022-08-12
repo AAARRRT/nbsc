@@ -14,7 +14,7 @@ BASE_URL = 'http://data.stats.gov.cn/english/easyquery.htm'
 default_timeout = 10  # seconds
 
 
-def load_nbs_web(series, periods, freq):
+def load_nbs_web(series: str, periods: str, freq: str):
     """
     Fetch & parse from the China National Bureau of Statistics web data API.
 
@@ -28,8 +28,10 @@ def load_nbs_web(series, periods, freq):
       indicated by the web interface, e.g.:
       - '1995': the single year 1995
       - '2003,2012': the years 2003 and 2012
+      - '2020-2022': from 2020 to 2022 (full years)
       - 'LATEST10': the most recent 10 periods for which data is available
       - 'LAST5': any data available for the most recent 5 periods
+    - *freq*: 'month' or 'year'
     """
     # Example query string (decoded):
     """
