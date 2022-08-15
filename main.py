@@ -1,7 +1,7 @@
-from nbsc.inflation import s_old
+import nbsc.inflation as infl
 from nbsc.request_data import load_nbs_web
 
 
-print(s_old)
+print(infl.get_annual_inflation())
 
 

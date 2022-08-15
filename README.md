@@ -15,7 +15,7 @@ A01010201 - Consumer Price Index (The same month last year=100) 1987 - 2015
  
 The same period last year=100  
 A01020101 - Consumer Price Index (The same period last year=100) 2016 -  
-A01020201 - Consumer Price Index (The same period last year=100) - 2015
+A01020201 - Consumer Price Index (The same period last year=100) 1995 - 2015
 
 preceding month=100  
 A01030101 - Consumer Price Index (preceding month=100) 2016 -  
