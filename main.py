@@ -1,7 +1,8 @@
-import math
-from tests.test_annual_and_monthly_inflation import infl_annual, annual_from_monthly
+import nbsc.inflation as infl
 
-assert math.isclose(infl_annual, annual_from_monthly, rel_tol=0.1)
+print(infl.calculate_monthly_from_annual()['2000'])
+
+
 
 
 
