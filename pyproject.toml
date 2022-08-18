@@ -1,7 +1,9 @@
 [tool.poetry]
 name = "nbsc"
 version = "0.1.0"
-description = ""
+description = "Python interface for National Bureau of Statistics of China (NBCS) API"
+keywords = ["finance", "statistics", "python", "china"]
+repository = "https://github.com/mbk-dev/nbsc"
 authors = ["Sergey Kikevich <sergey@rostsber.ru>"]
 readme = "README.md"
 
