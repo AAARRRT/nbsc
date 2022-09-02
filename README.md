@@ -1,3 +1,7 @@
+[![Python](https://img.shields.io/badge/python-v3-brightgreen.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://opensource.org/licenses/GPL-3.0)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 # nbsc: Python interface to National Bureau of Statistics of China (NBSC) API
 Known data codes (series) for API requests...
 
