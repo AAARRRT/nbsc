@@ -1,9 +1,4 @@
 import nbsc.inflation as infl
 
 
-print(infl.calculate_monthly_from_annual(last_date='2007-07'))
-
-
-
-
-
+print(infl.get_recent_inflation("2022"))
