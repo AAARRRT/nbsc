@@ -22,7 +22,8 @@ A01020101 - Consumer Price Index (The same period last year=100) 2016 -
 A01020201 - Consumer Price Index (The same period last year=100) 1995 - 2015
 
 preceding month=100  
-A01030101 - Consumer Price Index (preceding month=100) 2016 -  
+A01030G01 - Consumer Price Index (preceding month=100) 2021 -  
+A01030101 - Consumer Price Index (preceding month=100) 2016 - 2020
 A01030201 - Consumer Price Index (preceding month=100) 2001 - 2015
 
 ## Gross Domestic Product (GDP) - annual data
